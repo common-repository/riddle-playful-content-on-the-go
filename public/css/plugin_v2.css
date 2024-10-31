@@ -1,0 +1,225 @@
+.btn-riddle {
+    border-radius: 4px;
+    word-wrap: break-word;
+    padding: 14px 19px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: bold;
+}
+
+.btn-cyan {
+    color: #fff;
+    background-color: #19D2F1;
+    border-color: #19D2F1;
+}
+
+.btn-cyan:hover {
+    color: #333 !important;
+}
+
+#wpbody {
+    background-color: #F6F8F9;
+    width: 100%;
+    min-height: 100vh;
+}
+
+#wpcontent {
+    padding-left: 0px;
+}
+
+#wpbody-content {
+    padding-top: 10px;
+
+}
+
+#riddle-page {
+    padding-left: 80px;
+    padding-top: 80px;
+}
+
+/* Works with both version simultaneously. */
+.riddle-page {
+    padding-left: 80px;
+    padding-top: 80px;
+}
+
+.bg-riddle-dark {
+    background: linear-gradient(135deg,#350865,#15495e);
+}
+
+.riddle-dark-icon {
+    width: 48px;
+    padding-right: 10px;
+}
+
+.riddle-navbar-title {
+    color: #424242;
+    /* font-family: "IBM Plex Mono"; todo: maybe download this font? */
+    font-size: 18px;
+    letter-spacing: 0;
+    padding-top: 5px;
+}
+
+.riddle-page-title {
+    /* font-family: Montserrat; */
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+}
+
+.riddle-card {
+    box-shadow: 0 1px 4px 0 rgba(0,32,91,0.2);
+}
+
+.riddle-card-title {
+    color: #424242;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.riddle-pull-right {
+    text-align: right;
+}
+
+.riddle-float-right {
+    float: right;
+}
+
+.riddle-form-field {
+    border: 1px solid #CCD2DE !important;
+    border-radius: 2px !important;
+    color: #424242c9 !important;
+}
+
+.riddle-list-row {
+    padding-left: 15px;
+}
+
+.riddle-modal {
+    top: 50px;
+}
+
+.riddle-leaderboard-navbar {
+    min-height: 100vh;
+    background-color: rgba(0,32,91,0.1);
+    padding: 0px;
+}
+
+.riddle-leaderboard-navbar-block {
+    padding-left: 15px;
+    padding-right: 15px;
+    /* background-color: rgba(0,32,91,0.1); */
+}
+
+.riddle-form-field-cell {
+    border-bottom: rgba(0,32,91,0.2) 1px solid;
+    padding: 15px;
+    font-size: 14px;
+}
+
+#riddle-leaderboard-creator-container {
+    min-height: 100vh;
+}
+
+a.nav-link.active {
+    font-weight: 700;
+    border-bottom: #19D2F1 4px solid;
+}
+
+hr {
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+a {
+    color: #00205B;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #00205B; /* @todo: darken this colour */
+}
+
+p, li {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* SPECIAL SWITCH */
+ /* The switch - the box around the slider */
+ .switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #19D2F1;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #19D2F1;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.riddle-image-preview {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.help-img {
+    width: 50%;
+}

@@ -1,0 +1,344 @@
+
+
+.riddle-table {
+	width: 100%;
+	margin-bottom: 1rem;
+	color: #212529;
+}
+
+.riddle-table th,
+.riddle-table td {
+	padding: 0.75rem;
+	vertical-align: top;
+	border-top: 1px solid #dee2e6;
+}
+
+.riddle-table thead th {
+	vertical-align: bottom;
+	border-bottom: 2px solid #dee2e6;
+}
+
+.riddle-table tbody+tbody {
+	border-top: 2px solid #dee2e6;
+}
+
+.riddle-table-sm th,
+.riddle-table-sm td {
+	padding: 0.3rem;
+}
+
+.riddle-table-bordered {
+	border: 1px solid #dee2e6;
+}
+
+.riddle-table-bordered th,
+.riddle-table-bordered td {
+	border: 1px solid #dee2e6;
+}
+
+.riddle-table-bordered thead th,
+.riddle-table-bordered thead td {
+	border-bottom-width: 2px;
+}
+
+.riddle-table-borderless th,
+.riddle-table-borderless td,
+.riddle-table-borderless thead th,
+.riddle-table-borderless tbody+tbody {
+	border: 0;
+}
+
+.riddle-table-striped tbody tr:nth-of-type(odd) {
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+.riddle-table-hover tbody tr:hover {
+	color: #212529;
+	background-color: rgba(0, 0, 0, 0.075);
+}
+
+.riddle-table-primary,
+.riddle-table-primary>th,
+.riddle-table-primary>td {
+	background-color: #b8daff;
+}
+
+.riddle-table-primary th,
+.riddle-table-primary td,
+.riddle-table-primary thead th,
+.riddle-table-primary tbody+tbody {
+	border-color: #7abaff;
+}
+
+.riddle-table-hover .riddle-table-primary:hover {
+	background-color: #9fcdff;
+}
+
+.riddle-table-hover .riddle-table-primary:hover>td,
+.riddle-table-hover .riddle-table-primary:hover>th {
+	background-color: #9fcdff;
+}
+
+.riddle-table-secondary,
+.riddle-table-secondary>th,
+.riddle-table-secondary>td {
+	background-color: #d6d8db;
+}
+
+.riddle-table-secondary th,
+.riddle-table-secondary td,
+.riddle-table-secondary thead th,
+.riddle-table-secondary tbody+tbody {
+	border-color: #b3b7bb;
+}
+
+.riddle-table-hover .riddle-table-secondary:hover {
+	background-color: #c8cbcf;
+}
+
+.riddle-table-hover .riddle-table-secondary:hover>td,
+.riddle-table-hover .riddle-table-secondary:hover>th {
+	background-color: #c8cbcf;
+}
+
+.riddle-table-success,
+.riddle-table-success>th,
+.riddle-table-success>td {
+	background-color: #c3e6cb;
+}
+
+.riddle-table-success th,
+.riddle-table-success td,
+.riddle-table-success thead th,
+.riddle-table-success tbody+tbody {
+	border-color: #8fd19e;
+}
+
+.riddle-table-hover .riddle-table-success:hover {
+	background-color: #b1dfbb;
+}
+
+.riddle-table-hover .riddle-table-success:hover>td,
+.riddle-table-hover .riddle-table-success:hover>th {
+	background-color: #b1dfbb;
+}
+
+.riddle-table-info,
+.riddle-table-info>th,
+.riddle-table-info>td {
+	background-color: #bee5eb;
+}
+
+.riddle-table-info th,
+.riddle-table-info td,
+.riddle-table-info thead th,
+.riddle-table-info tbody+tbody {
+	border-color: #86cfda;
+}
+
+.riddle-table-hover .riddle-table-info:hover {
+	background-color: #abdde5;
+}
+
+.riddle-table-hover .riddle-table-info:hover>td,
+.riddle-table-hover .riddle-table-info:hover>th {
+	background-color: #abdde5;
+}
+
+.riddle-table-warning,
+.riddle-table-warning>th,
+.riddle-table-warning>td {
+	background-color: #ffeeba;
+}
+
+.riddle-table-warning th,
+.riddle-table-warning td,
+.riddle-table-warning thead th,
+.riddle-table-warning tbody+tbody {
+	border-color: #ffdf7e;
+}
+
+.riddle-table-hover .riddle-table-warning:hover {
+	background-color: #ffe8a1;
+}
+
+.riddle-table-hover .riddle-table-warning:hover>td,
+.riddle-table-hover .riddle-table-warning:hover>th {
+	background-color: #ffe8a1;
+}
+
+.riddle-table-danger,
+.riddle-table-danger>th,
+.riddle-table-danger>td {
+	background-color: #f5c6cb;
+}
+
+.riddle-table-danger th,
+.riddle-table-danger td,
+.riddle-table-danger thead th,
+.riddle-table-danger tbody+tbody {
+	border-color: #ed969e;
+}
+
+.riddle-table-hover .riddle-table-danger:hover {
+	background-color: #f1b0b7;
+}
+
+.riddle-table-hover .riddle-table-danger:hover>td,
+.riddle-table-hover .riddle-table-danger:hover>th {
+	background-color: #f1b0b7;
+}
+
+.riddle-table-light,
+.riddle-table-light>th,
+.riddle-table-light>td {
+	background-color: #fdfdfe;
+}
+
+.riddle-table-light th,
+.riddle-table-light td,
+.riddle-table-light thead th,
+.riddle-table-light tbody+tbody {
+	border-color: #fbfcfc;
+}
+
+.riddle-table-hover .riddle-table-light:hover {
+	background-color: #ececf6;
+}
+
+.riddle-table-hover .riddle-table-light:hover>td,
+.riddle-table-hover .riddle-table-light:hover>th {
+	background-color: #ececf6;
+}
+
+.riddle-table-dark,
+.riddle-table-dark>th,
+.riddle-table-dark>td {
+	background-color: #c6c8ca;
+}
+
+.riddle-table-dark th,
+.riddle-table-dark td,
+.riddle-table-dark thead th,
+.riddle-table-dark tbody+tbody {
+	border-color: #95999c;
+}
+
+.riddle-table-hover .riddle-table-dark:hover {
+	background-color: #b9bbbe;
+}
+
+.riddle-table-hover .riddle-table-dark:hover>td,
+.riddle-table-hover .riddle-table-dark:hover>th {
+	background-color: #b9bbbe;
+}
+
+.riddle-table-active,
+.riddle-table-active>th,
+.riddle-table-active>td {
+	background-color: rgba(0, 0, 0, 0.075);
+}
+
+.riddle-table-hover .riddle-table-active:hover {
+	background-color: rgba(0, 0, 0, 0.075);
+}
+
+.riddle-table-hover .riddle-table-active:hover>td,
+.riddle-table-hover .riddle-table-active:hover>th {
+	background-color: rgba(0, 0, 0, 0.075);
+}
+
+.riddle-table .thead-dark th {
+	color: #fff;
+	background-color: #343a40;
+	border-color: #454d55;
+}
+
+.riddle-table .thead-light th {
+	color: #495057;
+	background-color: #e9ecef;
+	border-color: #dee2e6;
+}
+
+.riddle-table-dark {
+	color: #fff;
+	background-color: #343a40;
+}
+
+.riddle-table-dark th,
+.riddle-table-dark td,
+.riddle-table-dark thead th {
+	border-color: #454d55;
+}
+
+.riddle-table-dark.riddle-table-bordered {
+	border: 0;
+}
+
+.riddle-table-dark.riddle-table-striped tbody tr:nth-of-type(odd) {
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+.riddle-table-dark.riddle-table-hover tbody tr:hover {
+	color: #fff;
+	background-color: rgba(255, 255, 255, 0.075);
+}
+
+@media (max-width: 575.98px) {
+	.riddle-table-responsive-sm {
+		display: block;
+		width: 100%;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+	.riddle-table-responsive-sm>.riddle-table-bordered {
+		border: 0;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.riddle-table-responsive-md {
+		display: block;
+		width: 100%;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+	.riddle-table-responsive-md>.riddle-table-bordered {
+		border: 0;
+	}
+}
+
+@media (max-width: 991.98px) {
+	.riddle-table-responsive-lg {
+		display: block;
+		width: 100%;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+	.riddle-table-responsive-lg>.riddle-table-bordered {
+		border: 0;
+	}
+}
+
+@media (max-width: 1199.98px) {
+	.riddle-table-responsive-xl {
+		display: block;
+		width: 100%;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+	.riddle-table-responsive-xl>.riddle-table-bordered {
+		border: 0;
+	}
+}
+
+.riddle-table-responsive {
+	display: block;
+	width: 100%;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.riddle-table-responsive>.riddle-table-bordered {
+	border: 0;
+}
